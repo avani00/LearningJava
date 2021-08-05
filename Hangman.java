@@ -14,7 +14,7 @@ public class Hangman {
 
 		while(true) {
 
-			String word = words[(int)(Math.random()*21) + 1];
+			String word = words[(int)(Math.random()*20) + 1];
 
 			String guessWord = "";
 			for(int i = 0; i < word.length(); i++) {
